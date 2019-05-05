@@ -13,8 +13,8 @@
 /persist         ext4              /dev/block/bootdevice/by-name/persist    flags=display="Persist";backup=1;flashimg=1
 /bt_firmware     vfat              /dev/block/bootdevice/by-name/bluetooth  flags=display="Bluetooth";backup=1;slotselect;flashimg=1
 /misc            emmc              /dev/block/bootdevice/by-name/misc
-/vbmeta_a         emmc             /dev/block/bootdevice/by-name/vbmeta_a   flags=display="vbmeta_a";backup=1;slotselect;flashimg=1
-/vbmeta_b         emmc             /dev/block/bootdevice/by-name/vbmeta_b   flags=display="vbmeta_b";backup=1;slotselect;flashimg=1
+/vbmeta_a        emmc              /dev/block/bootdevice/by-name/vbmeta_a   flags=display="vbmeta_a";backup=1;slotselect;flashimg=1
+/vbmeta_b        emmc              /dev/block/bootdevice/by-name/vbmeta_b   flags=display="vbmeta_b";backup=1;slotselect;flashimg=1
 /modem		       emmc              /dev/block/bootdevice/by-name/modem      flags=slotselect;backup=1;display="Modem";flashimg=1
 /firmware        vfat              /dev/block/bootdevice/by-name/modem      flags=display="Firmware";slotselect;backup=1;mounttodecrypt;fsflags=context=u:object_r:firmware_file:s0
 /efs1            emmc              /dev/block/bootdevice/by-name/modemst1   flags=backup=1;display=EFS;flashimg=1
